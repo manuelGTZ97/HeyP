@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "593523368340",
+    "project_id": "heyp-57e12",
+    "storage_bucket": "heyp-57e12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593523368340:android:2ce59e0694631f51b7af81",
+        "android_client_info": {
+          "package_name": "com.thenone.heyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593523368340-m7kaekpd7a8t5daere3itenpqg9jclko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRMMKZyt51e1Q4Kq_SCml1_eZ85TwPyDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593523368340-m7kaekpd7a8t5daere3itenpqg9jclko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

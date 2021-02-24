@@ -1,0 +1,93 @@
+name: heyp
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  adhara_socket_io: ^0.4.2+1
+  cached_network_image: ^2.3.3
+  chopper: ^3.0.6
+  cupertino_icons: ^1.0.0
+  dartz: ^0.9.2
+  easy_localization: ^2.3.3
+  emoji_picker: ^0.1.0
+  equatable: ^1.2.5
+  firebase_messaging: ^7.0.3
+  flutter_bloc: ^6.0.6
+  fluttertoast: ^7.1.1
+  freezed_annotation: ^0.12.0
+  image_cropper: ^1.3.1
+  image_picker: ^0.6.7+12
+  injectable: ^1.0.5
+  json_annotation: ^3.1.0
+  lottie: ^0.6.0
+  photo_view: ^0.10.2
+  pin_code_text_field: ^1.7.1
+  shimmer: ^1.1.2
+  social_share: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner:
+  chopper_generator: ^3.0.6
+  #analyzer: ^0.39.17
+  freezed: ^0.12.2
+  injectable_generator: ^1.0.6
+  json_serializable: ^3.5.0
+  lint: ^1.3.0
+  flutter_launcher_icons: ^0.8.1
+
+
+flutter_icons:
+  image_path: 'assets/images/launcher_ic.png'
+  android: true
+  ios: true
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/images/1.5x/
+    - assets/images/2.0x/
+    - assets/images/3.0x/
+    - assets/images/4.0x/
+    - assets/languages/
+    - assets/json/
+
+  fonts:
+    - family: JosefinSans
+      fonts:
+        - asset: assets/fonts/JosefinSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/JosefinSans-SemiBold.ttf
+          weight: 500
+        - asset: assets/fonts/JosefinSans-Bold.ttf
+          weight: 700
